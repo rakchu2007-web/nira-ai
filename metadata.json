@@ -1,0 +1,6 @@
+{
+  "name": "NIRA AI - Tamil Government Scheme Navigator",
+  "description": "NIRA AI: தமிழ் மக்களுக்கான அரசு நலத்திட்ட வழிகாட்டி — எளிய குரல் & உரை உதவி (பெண்கள், கல்வி, வேலை, தொழில், விவசாயம், சமூக நலன்).",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
