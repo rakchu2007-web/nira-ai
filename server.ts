@@ -30,7 +30,7 @@ const ai = apiKey
 // Privacy safety regexes to detect sensitive personal identification numbers
 const AADHAAR_REGEX = /\b\d{4}\s?\d{4}\s?\d{4}\b/;
 const BANK_ACCOUNT_REGEX = /\b\d{9,18}\b/;
-const SENSITIVE_WORDS_REGEX = /\b(otp|one time password|கடவுச்சொல்|பின் எண்|cvv|pin|upi pin)\b/i;
+const SENSITIVE_WORDS_REGEX = /\b(otp|one time password|cvv|pin|upi pin)\b|(கடவுச்சொல்|பின் எண்)/i;
 
 const SYSTEM_INSTRUCTION = `
 You are "NIRA AI" (நிரா AI) — a compassionate, respectful, and trusted Tamil-first Government Scheme Navigator (அரசு திட்ட வழிகாட்டி) helping citizens and first-time digital users in Tamil Nadu and India discover, understand, and apply for relevant government welfare schemes.

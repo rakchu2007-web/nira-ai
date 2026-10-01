@@ -369,7 +369,7 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
  * 3. Gracefully falls back to the closest natural female Indian voice (e.g. Neerja, Veena, Swara, Heera)
  *    if a natural Tamil female voice is unavailable.
  */
-function getTamilVoice(): SpeechSynthesisVoice | null {
+export function getTamilVoice(): SpeechSynthesisVoice | null {
   if (typeof window === 'undefined' || !window.speechSynthesis) return null;
 
   // Dynamically query latest voices from speechSynthesis
